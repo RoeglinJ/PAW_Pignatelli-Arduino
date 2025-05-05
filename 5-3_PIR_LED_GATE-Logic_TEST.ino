@@ -1,7 +1,7 @@
 /////////////////////////////////////////////////////////////////////////////////////
 /*
  * PIR counter test sketch
- * With jumper set to "L" and both potentiometers set to most counter-clockwise position, motion should re-trigger after Tx = ~1.1s and Ti = ~4.5s.
+ * With jumper set to "L" and both potentiometers set to most counter-clockwise position, motion should re-trigger after Tx = ~1.1s and Ti = ~3.6s.
  * Thus, a max of ~13 triggers per minute should be possible. Accordingly, data should be trimmed past 13 motions/minute to remove artifacts. 
  * Per neufeld.newton.ks.us/electronics/?p=208, a warm-up period of ~1 minute wherein "random" triggerings occur may be necessary. In my experience, this period lasted between 20 s and 5 min. 
  */
